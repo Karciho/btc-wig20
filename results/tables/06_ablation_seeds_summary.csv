@@ -1,0 +1,4 @@
+Model,Średnia różnica,Odchylenie std,Minimum,Maksimum,Udział przebiegów dodatnich (%),Liczba przebiegów
+XGBoost,0.1077,0.0782,-0.0496,0.24,90.0,10
+LightGBM,0.0407,0.0368,-0.0036,0.1018,90.0,10
+średnia z obu modeli,0.0742,0.0495,-0.0017,0.1533,90.0,10

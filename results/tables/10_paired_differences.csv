@@ -1,0 +1,11 @@
+Porównanie,Miara,Różnica,95% PU,p (bootstrap),Istotna
+Zespół (NNLS) − LightGBM,AUC-PR,-0.0405,[-0.1276; +0.0242],0.281,nie
+Zespół (NNLS) − LightGBM,AUC-ROC,-0.018,[-0.0373; -0.0009],0.038,tak
+Zespół (NNLS) − XGBoost,AUC-PR,-0.0406,[-0.1296; +0.0389],0.344,nie
+Zespół (NNLS) − XGBoost,AUC-ROC,-0.0524,[-0.0820; -0.0228],0.001,tak
+Zespół (NNLS) − LSTM,AUC-PR,0.1406,[+0.0182; +0.2351],0.001,tak
+Zespół (NNLS) − LSTM,AUC-ROC,0.0833,[+0.0333; +0.1371],0.0,tak
+Zespół (NNLS) − GRU,AUC-PR,0.19,[+0.0433; +0.2837],0.0,tak
+Zespół (NNLS) − GRU,AUC-ROC,-0.0051,[-0.0715; +0.0461],0.911,nie
+Zespół (NNLS) − Zespół (uśrednianie),AUC-PR,-0.0281,[-0.0992; +0.0104],0.344,nie
+Zespół (NNLS) − Zespół (uśrednianie),AUC-ROC,-0.0041,[-0.0094; +0.0008],0.109,nie

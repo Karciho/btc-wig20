@@ -1,0 +1,11 @@
+Porównanie,Miara,Średnia różnica,Zespół lepszy w,p (test par),p (Wilcoxon),Istotna
+zespół − LSTM,AUC-ROC,0.0797,15/15,0.0,0.0001,tak
+zespół − LSTM,AUC-PR,0.1669,15/15,0.0,0.0001,tak
+zespół − GRU,AUC-ROC,0.0434,12/15,0.0002,0.0009,tak
+zespół − GRU,AUC-PR,0.0919,15/15,0.0,0.0001,tak
+zespół − XGBoost,AUC-ROC,-0.0224,1/15,0.0,0.0001,tak
+zespół − XGBoost,AUC-PR,-0.0187,4/15,0.0307,0.0353,tak
+zespół − LightGBM,AUC-ROC,-0.0195,1/15,0.0003,0.0003,tak
+zespół − LightGBM,AUC-PR,-0.0559,2/15,0.0002,0.0003,tak
+zespół − Zespół: uśrednianie,AUC-ROC,-0.0022,8/15,0.5579,0.8469,nie
+zespół − Zespół: uśrednianie,AUC-PR,-0.0028,8/15,0.602,0.6788,nie

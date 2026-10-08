@@ -1,0 +1,3 @@
+Szereg,N,JB stat,JB p-value,SW stat (próbka 5k),SW p-value,AD stat,AD rej. H0 (5%),Kurtoza nadmiarowa,Skośność,Wniosek
+BTC Log-Return,1905,22439.55000000,0.00000000,0.89496400,0.00000000,36.31560000,Tak (nie-normalny),16.68200000,-1.05050000,NIE-normalny
+WIG20 Log-Return,1905,5357.39000000,0.00000000,0.94611100,0.00000000,10.78960000,Tak (nie-normalny),8.09240000,-0.70840000,NIE-normalny

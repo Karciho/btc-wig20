@@ -1,0 +1,7 @@
+Szereg,ADF stat,ADF p-val,ADF wniosek,KPSS stat,KPSS p-val,KPSS wniosek,Wniosek łączny
+BTC/USD Close (poziom),-1.810200,0.699825,Niestacjonarny (pierwiastek jedn.),0.452900,0.010000,Niestacjonarny,I(1) — niestacjonarny
+BTC/USD Log-Return,-24.083200,0.000000,Stacjonarny,0.237500,0.100000,Stacjonarny,I(0) — stacjonarny
+WIG20 Close (poziom),-0.788700,0.966620,Niestacjonarny (pierwiastek jedn.),1.145200,0.010000,Niestacjonarny,I(1) — niestacjonarny
+WIG20 Log-Return,-24.340200,0.000000,Stacjonarny,0.300300,0.100000,Stacjonarny,I(0) — stacjonarny
+VIX (poziom),-5.126600,0.000120,Stacjonarny,0.219300,0.010000,Niestacjonarny,Nieokreślony (sprzeczne testy)
+DXY (poziom),-2.093700,0.549614,Niestacjonarny (pierwiastek jedn.),0.633600,0.010000,Niestacjonarny,I(1) — niestacjonarny

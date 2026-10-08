@@ -1,0 +1,5 @@
+Wariant,Model,AUC-PR,AUC-ROC,F1,Wynik Briera,Iloraz do częstości bazowej
+z cechami autoenkodera,XGBoost,0.437,0.8609,0.268,0.0187,18.16
+z cechami autoenkodera,LightGBM,0.437,0.8265,0.383,0.0237,18.16
+bez cech autoenkodera,XGBoost,0.3669,0.8441,0.3556,0.0197,15.247
+bez cech autoenkodera,LightGBM,0.4276,0.8403,0.3913,0.0201,17.769

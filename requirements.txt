@@ -1,0 +1,45 @@
+# ============================================================
+# Praca magisterska: BTC–GPW Ensemble Learning
+# Python 3.13 (Anaconda base)
+# ============================================================
+
+# ── Dane i API ───────────────────────────────────────────────
+yfinance>=0.2.40          # Yahoo Finance: BTC-USD, WIG20.WA, ^VIX
+ccxt>=4.3.0               # Binance / giełdy krypto (fallback)
+pandas-datareader>=0.10.0 # stooq.pl, FRED
+fredapi>=0.5.2            # FRED API (Fed Funds Rate, DXY)
+requests>=2.32.0
+
+# ── Przetwarzanie danych ─────────────────────────────────────
+pandas>=2.2.0
+numpy>=2.0.0
+scipy>=1.13.0
+
+# ── Statystyki i ekonometria ─────────────────────────────────
+statsmodels>=0.14.4       # ADF, KPSS, ACF/PACF, VAR, GARCH-prep
+arch>=7.0.0               # GARCH, EGARCH — modelowanie wariancji
+
+# ── ML — modele bazowe ───────────────────────────────────────
+scikit-learn>=1.5.0       # preprocessing, CV, metryki, stacking
+xgboost>=2.1.0            # gradient boosting
+lightgbm>=4.5.0           # szybszy gradient boosting
+
+# ── Deep Learning — LSTM/GRU + Autoencoder ──────────────────
+tensorflow>=2.16.0        # Keras 3 (backend TF) — LSTM, GRU, AE
+# keras>=3.0.0            # już bundled z tensorflow
+
+# ── Interpretacja modeli ─────────────────────────────────────
+shap>=0.46.0              # SHAP values (XGBoost, LSTM wrapper)
+# lime>=0.2.0             # opcjonalnie
+
+# ── Wizualizacja ─────────────────────────────────────────────
+matplotlib>=3.9.0
+seaborn>=0.13.0
+plotly>=5.24.0            # interaktywne wykresy HRI
+kaleido>=0.2.1            # export plotly → PNG/PDF
+
+# ── Narzędzia ogólne ─────────────────────────────────────────
+tqdm>=4.66.0              # paski postępu
+joblib>=1.4.0             # zapis modeli sklearn
+pyarrow>=17.0.0           # szybki I/O parquet (cache danych)
+python-dotenv>=1.0.0      # zmienne środowiskowe (klucze API)

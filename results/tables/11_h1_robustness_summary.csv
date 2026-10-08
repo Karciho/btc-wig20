@@ -1,0 +1,4 @@
+Wariant,Liczba cech,Sesji,HRI → WIG20: istotnych opóźnień (BH),WIG20 → HRI: istotnych opóźnień (BH),Najmniejsze p (HRI → WIG20),Najmniejsze p (WIG20 → HRI)
+pełny,52,748,0,10,0.01108,6e-05
+bez cech WIG20,34,748,8,10,0.00231,0.00109
+tylko bitcoin i makro,34,748,8,10,0.00231,0.00109
